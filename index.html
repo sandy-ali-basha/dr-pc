@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DR PC</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="“X-UA-Compatible”" content="“IE" ="edge”" />
+    <!-- favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicons/apple-touch-icon.png"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/logo.jpg" />
+    <link
+      rel="mask-icon"
+      href="images/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#2b3a8f" />
+    <meta name="theme-color" content="#2b3a8f" />
+    <!-- favicons -->
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script type="text/javascript" src="script/jquery-3.2.1.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- start-smooth-scrolling -->
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="bg-white">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom container"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <span class="navbar-brand">
+            <img src="./images/logo.jpg" class="w-100" alt="" />
+          </span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active my-bg" aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </header>
+    </div>
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="circle"></div>
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="/images/OIP.jfif"
+            class="d-block border border-5 border-white mx-lg-auto rounded img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            Responsive left-aligned hero with image
+          </h1>
+          <p class="lead">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+              Primary
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Default
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="d-flex align-items-center">
+      <main class="position-relative w-100 m-auto">
+        <div class="small-circle"></div>
+        <form class="container w-50">
+          <h1 class="h3 mb-3 fw-normal">Please select what you looking for</h1>
+
+          <div class="form-check text-start my-3">
+            <label for="ram">RAM</label>
+            <select
+              id="ram"
+              class="form-select"
+              aria-label="Default select example"
+            >
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="form-check text-start my-3">
+            <label for="Graphic">Graphic card</label>
+            <select
+              id="Graphic"
+              class="form-select"
+              aria-label="Default select example"
+            >
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="form-check text-start my-3">
+            <label for="Mother">Mother board</label>
+            <select
+              id="Mother"
+              class="form-select"
+              aria-label="Default select example"
+            >
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="form-check text-start my-3">
+            <label for="storage">storage</label>
+            <select
+              id="storage"
+              class="form-select"
+              aria-label="Default select example"
+            >
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <div class="mt-4">
+              <button
+                class="btn my-bg px-5 btn-secondary mx-auto py-2"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </main>
+    </section>
+    <div class="position-relative ">
+      <div class="container">
+        <div class="row  row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('/images/OIP.jfif');"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Short title, long jacket
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="/images/OIP.jfif"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white "
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('/images/OIP.jfif');"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Much longer title that wraps to multiple lines
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="/images/OIP.jfif"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small>Pakistan</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('/images/OIP.jfif');"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Another longer title belongs here
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="/images/OIP.jfif"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small>California</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="circle footer-circle"></div>
+    </div>
+    <div>
+      <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class=" pt-2">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center text-dark p-3"
+          style="background-color: rgba(0, 0, 0, 0.2);"
+        >
+          © 2020 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/"
+            >MDBootstrap.com</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <!-- End of .container -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

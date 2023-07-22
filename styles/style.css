@@ -1,0 +1,88 @@
+* {
+  background-repeat: no-repeat;
+}
+
+body {
+  position: relative;
+}
+
+.nav-link {
+  color: #2b3a8f !important;
+}
+
+.btn-primary {
+  background-color: #2b3a8f !important;
+}
+
+.active {
+  background-color: #2b3a8f !important;
+  color: white !important;
+}
+
+.circle {
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+  top: 0px;
+  width: 50vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.circle::after {
+  content: " ";
+  display: block;
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+  background-color: #2b3a8f;
+  border-radius: 50%;
+  right: -50vh;
+  top: 0px;
+}
+
+.form-signin {
+  position: relative;
+}
+
+.small-circle {
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+  top: 0px;
+  width: 20vw;
+  height: 20vw;
+  overflow: hidden;
+}
+.small-circle::after {
+  content: " ";
+  display: block;
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  background-color: #2b3a8f;
+  border-radius: 50%;
+  left: -10vw;
+  top: 0px;
+}
+
+footer {
+  position: relative;
+}
+
+.footer-circle {
+  width: 100vw;
+  bottom: 0px;
+  height: 50vh;
+  top: initial;
+}
+.footer-circle::after {
+  right: 0px !important;
+  width: 100vw !important;
+  height: 100vw !important;
+  border-radius: 37% !important;
+  bottom: -20vw !important;
+}
+
+.navbar-brand {
+  width: 3vw !important;
+}/*# sourceMappingURL=style.css.map */
